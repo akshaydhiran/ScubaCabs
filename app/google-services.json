@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "970246125983",
+    "firebase_url": "https://scubacabs.firebaseio.com",
+    "project_id": "scubacabs",
+    "storage_bucket": "scubacabs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970246125983:android:b571039367a1a8345c65aa",
+        "android_client_info": {
+          "package_name": "com.scubacabs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970246125983-n8rmj7hh2dveafb8k0dkni32520ca3m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.scubacabs",
+            "certificate_hash": "1208d177a599b850abe3e32b74a7dfe4cb69eb4f"
+          }
+        },
+        {
+          "client_id": "970246125983-1mop02nn92k5da2onc9g6k6qkq9vd274.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUMKY6_wQOwBu0zZhsMT2q51QoBYA6YUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970246125983-1mop02nn92k5da2onc9g6k6qkq9vd274.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

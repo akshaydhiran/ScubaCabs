@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".init.LoginDriverActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   DRIVER LOGIN"
+        android:textSize="50dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/logindriver_email"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:textSize="20dp"
+        />
+    <EditText
+        android:id="@+id/logindriver_password"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/logindriver_loginbutton"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="LOGIN"
+        android:textColor="#fff"
+        android:background="#FFB300"/>
+    <TextView
+        android:id="@+id/logindriver_forgotpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="                                                                     Forgot Password ?"
+        android:textColor="#110101"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logindriver_signup"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="Don't have an account ?   Sign Up"
+        android:textColor="#140101"/>
+</LinearLayout>

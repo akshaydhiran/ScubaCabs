@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".init.RegisterPassengerActivity">
+
+    <TextView
+        android:text=" Sign Up To Ride"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/registerpassenger_name"
+        android:layout_marginTop="80dp"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:id="@+id/registerpassenger_email"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/registerpassenger_mobile"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/registerpassenger_password"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/registerpassenger_confirmpassword"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By clicking Sign Up, you agree to Uber's Terms of Use and acknowledge you have read the Privacy Policy. You also consent to receive calls or SMS messages, including by automated dialer, from Scuba Cabs and its affiliates to the number you provide for informational and/or marketing purposes. Consent to receive marketing messages is not a condition to use Uber’s services. You understand that you may opt out by texting “STOP” to 89203."/>
+    <Button
+        android:id="@+id/registerpassenger_signup"
+        android:layout_marginTop="5dp"
+        android:text="SIGN UP"
+        android:textSize="18dp"
+        android:background="#FFB300"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/registerpassenger_click"
+        android:text="Already have an account? Click here"
+        android:textAllCaps="false"
+        android:textColor="#122E58"
+        />
+</LinearLayout>

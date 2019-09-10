@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".init.RegisterDriverActivity">
+
+    <TextView
+        android:text="Sign Up to Drive"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:id="@+id/registerdriver_name"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textStyle="bold"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Driver Pin"
+        android:textStyle="bold"
+        android:inputType="number"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_vehiclename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Name"
+        android:textStyle="bold"
+        android:inputType="number"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_vehiclenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Number"
+        android:textStyle="bold"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/registerdriver_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textStyle="bold"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By proceeding, I agree to Scuba Cabs, Terms of Use and acknowledge that I have read the Privacy Policy.
+
+I also agree that Scuba Cabs or its representatives may contact me by email, phone, or SMS (including by automated means) at the email address or number I provide, including for marketing purposes."
+        android:textStyle="bold"
+        android:textColor="#000"
+
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/registerdriver_signup"
+        android:text="SIGN UP"
+        android:textSize="18dp"
+        android:background="#FFB300"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/registerdriver_click"
+        android:text="Already have an account? Click here"
+        android:textAllCaps="false"
+        android:textColor="#122E58"
+        />
+</LinearLayout>
